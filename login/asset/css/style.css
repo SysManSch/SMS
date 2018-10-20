@@ -1,0 +1,134 @@
+body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #dedede;
+	top: 0;
+	overflow: hidden;
+}
+
+
+@font-face {
+    font-family: 'nixie';
+    src:url('../font/NixieOne.ttf');
+}
+
+@font-face {
+    font-family: 'FM';
+    src:url('../font/Fragmentcore.otf');
+}
+
+@font-face {
+    font-family: 'limet';
+    src:url('../font/limetart.ttf');
+}
+
+.move-tengah {
+	margin-top: 175px;
+}
+
+.container {
+	padding: auto;
+	margin: auto;
+	width: 400px;
+	height: 300px;
+	background-color: #fff;
+
+}
+
+.atas {
+	width: 100%;
+	height: 50px;
+	background-color: #616161;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: limet;
+}
+
+.tengah {
+	width: 100%;
+	height: 150px;
+}
+
+.log-form {
+	margin: auto;
+	padding: auto;
+}
+
+.inmode {
+	border: 0;
+	width: 250px;
+	height: 40px;
+	margin-left: 100px;
+	margin-top: 15px;
+	font-size: 15px;
+	outline: none;
+	padding-left: 10px;
+}
+
+.log-submit{
+	margin-left: -25px;
+	width: 450px;
+	border: 0;
+	height: 50px;
+	background-color: #616161;
+	color: white;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: FM;
+	outline: none;
+}
+
+.sayap {
+	width: 0px;
+	height: 0px;
+	border-top: 20px solid #333; 
+	border-left: 25px solid transparent;
+
+}
+
+.font {
+	padding-top: 10px;
+}
+
+.garis {
+	width: 300px;
+	height: 2px;
+	background-color: #ececec;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.log-submit:active {
+	background-color: #333;
+	border: 0;
+}
+
+.inmode:focus{
+	border: 0.1px solid gray;
+}
+
+#kanan {
+	margin-left: 400px;
+	margin-right: 455px;
+	margin-top: -20px; 
+	transform: rotateY(180deg);
+}
+
+#kiri {
+	margin-left: -25px;
+	margin-top: 0px; 
+}
+
+.icon {
+	position: relative;
+	left: 50px;
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
